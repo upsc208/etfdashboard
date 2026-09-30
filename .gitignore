@@ -1,0 +1,59 @@
+# ==========================================
+# Git Ignore Configuration (Project Root)
+# ==========================================
+
+# Python & 가상환경 (uv / venv)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 환경 변수 및 설정 파일
+.env
+.env.local
+.env.*.local
+
+# OS 및 시스템 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & 에디터 설정
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# 로그 및 임시/캐시 파일
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.cache
+
+# 대용량 덤프 및 압축 파일
+*.zip
+*.tar.gz
+*.7z
+
+# 내보낸 CSV / Excel 데이터 파일 (정적 스냅샷 data/data.json 은 추적 유지)
+*.csv
+*.xlsx
